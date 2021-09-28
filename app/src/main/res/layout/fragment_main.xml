@@ -25,7 +25,7 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
@@ -47,7 +47,7 @@
 
             <ImageView
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="20dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
@@ -98,14 +98,14 @@
                 android:text="28 September, 11:41 pm"
                 android:textColor="@color/black"
                 android:layout_marginBottom="12dp"
-                android:textSize="12sp"/>
+                android:textSize="13sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Day 32 | Night 24"
                 android:textColor="@color/white"
-                android:textSize="12sp"/>
+                android:textSize="11sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -113,19 +113,20 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="27"
                         android:textColor="@color/white"
-                        android:textSize="80sp"/>
+                        android:textSize="100sp"/>
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Feels like 31"
                         android:textColor="@color/white"
@@ -134,13 +135,14 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_gravity="right|center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:scaleType="centerCrop"
+                    android:layout_margin="20dp"
                     android:src="@drawable/ic_baseline_cloud_24" />
 
             </LinearLayout>
+
 
         </LinearLayout>
 
