@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFragment">
+    tools:context=".TodayFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="110dp"
         android:background="@color/mainPurple"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent">
@@ -56,22 +56,37 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Today"
-            android:textAllCaps="true"
-            android:textColor="@color/white"
-            android:textSize="15dp" />
-
         <LinearLayout
-            android:layout_width="300dp"
-            android:layout_height="2dp"
-            android:layout_gravity="center|bottom"
-            android:layout_marginTop="10dp"
-            android:background="@color/white"
-            android:gravity="bottom" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/mainPurple"
+                app:tabTextColor="#9998AA"
+                app:tabSelectedTextColor="@color/white"
+                app:tabIndicator="@color/white">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TODAY" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOMORROW" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 DAYS" />
+            </com.google.android.material.tabs.TabLayout>
+
+        </LinearLayout>
 
 
     </LinearLayout>
