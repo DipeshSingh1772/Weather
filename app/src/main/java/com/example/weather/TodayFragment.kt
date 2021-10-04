@@ -5,11 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.weather.databinding.FragmentMainBinding
+import com.example.weather.databinding.FragmentTodayBinding
 
 class TodayFragment : Fragment() {
 
-    private var _binding : FragmentMainBinding? = null
+    private var _binding : FragmentTodayBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class TodayFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-        _binding = FragmentMainBinding.inflate(inflater,container,false)
+        _binding = FragmentTodayBinding.inflate(inflater,container,false)
 
         return binding.root
     }

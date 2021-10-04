@@ -1,18 +1,23 @@
 package com.example.weather
 
+import android.widget.Switch
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class viewPageAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
+class ViewPageAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
 
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return 3
     }
 
     override fun createFragment(position: Int): Fragment {
-        TODO("Not yet implemented")
+        when(position){
+            0->return TodayFragment()
+            1->return TomorrowFragment()
+            else -> return TendaysFragment()
+        }
     }
 }
