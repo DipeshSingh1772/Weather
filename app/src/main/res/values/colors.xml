@@ -7,6 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="mainPurple">#7471B8</color>
-    <color name="upperColor">#7E57C2</color>
+    <color name="mainPurple">#663DCA</color>
+    <color name="upperColor">#8B5BFF</color>
 </resources>

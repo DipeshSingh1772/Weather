@@ -18,8 +18,8 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="800dp"
-                android:background="#8E8BE2"
+                android:layout_height="750dp"
+                android:background="#8B5BFF"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -81,101 +81,11 @@
 
                 </LinearLayout>
 
-                <ScrollView
+                <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp">
-
-                    <LinearLayout
-                        android:id="@+id/temp_status_hourly"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:orientation="vertical">
-
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:textSize="50sp"
-                            android:text="add status" />
-
-
-
-
-                    </LinearLayout>
-
-
-                </ScrollView>
-
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/main_picture_outlet"/>
 
             </LinearLayout>
 
@@ -183,7 +93,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                app:layout_constraintTop_toBottomOf="@id/temp_status_hourly"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:background="@color/white"
                 android:backgroundTint="@color/white">
